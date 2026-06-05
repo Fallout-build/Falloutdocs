@@ -1,12 +1,12 @@
 # Falloutdocs
 
-Docusaurus build that publishes [Fallout](https://github.com/ChrisonSimtian/Fallout)'s documentation at **[docs.fallout.build](https://docs.fallout.build)**.
+Docusaurus build that publishes [Fallout](https://github.com/Fallout-build/Fallout)'s documentation at **[docs.fallout.build](https://docs.fallout.build)**.
 
 ## Architecture
 
 Two repos, one site:
 
-- **[ChrisonSimtian/Fallout](https://github.com/ChrisonSimtian/Fallout)** — markdown source-of-truth lives at `docs/`. Edits land via PRs to the Fallout repo so doc changes go with the code that motivates them.
+- **[Fallout-build/Fallout](https://github.com/Fallout-build/Fallout)** — markdown source-of-truth lives at `docs/`. Edits land via PRs to the Fallout repo so doc changes go with the code that motivates them.
 - **This repo** — Docusaurus config, theme, components, deploy workflow. No markdown.
 
 At build time, `.github/workflows/deploy.yml` checks out **both** repos: this one (config/theme) and Fallout (source). Docusaurus reads from `./fallout-source/docs` and emits the static site.
@@ -27,7 +27,7 @@ If you need an immediate rebuild after a Fallout `docs/` change, trigger the wor
 
 ```bash
 # One-time clone of the markdown source as a sibling check-out
-git clone https://github.com/ChrisonSimtian/Fallout fallout-source
+git clone https://github.com/Fallout-build/Fallout fallout-source
 
 # Then
 npm ci
@@ -37,5 +37,5 @@ npm run build   # static output in ./build
 
 ## License
 
-Documentation content is MIT-licensed by the [Fallout maintainers](https://github.com/ChrisonSimtian/Fallout/blob/main/LICENSE).
+Documentation content is MIT-licensed by the [Fallout maintainers](https://github.com/Fallout-build/Fallout/blob/main/LICENSE).
 The build chrome in this repo is also MIT-licensed.
