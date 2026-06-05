@@ -5,7 +5,7 @@
   "description": "Docusaurus build for docs.fallout.build",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChrisonSimtian/Falloutdocs.git"
+    "url": "https://github.com/Fallout-build/Falloutdocs.git"
   },
   "license": "MIT",
   "scripts": {

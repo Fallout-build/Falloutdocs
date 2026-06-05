@@ -14,7 +14,7 @@ const config: Config = {
   url: 'https://docs.fallout.build',
   baseUrl: '/',
 
-  organizationName: 'ChrisonSimtian',
+  organizationName: 'Fallout-build',
   projectName: 'Falloutdocs',
 
   onBrokenLinks: 'warn',
@@ -40,7 +40,7 @@ const config: Config = {
           path: './fallout-source/docs',
           routeBasePath: '/docs',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/ChrisonSimtian/Fallout/tree/main/',
+          editUrl: 'https://github.com/Fallout-build/Fallout/tree/main/',
           exclude: [
             '**/rebrand-plan.md',
             '**/roadmap.md',
@@ -70,7 +70,7 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/ChrisonSimtian/Fallout',
+          href: 'https://github.com/Fallout-build/Fallout',
           label: 'GitHub',
           position: 'right',
         },
@@ -89,9 +89,9 @@ const config: Config = {
         {
           title: 'Project',
           items: [
-            {label: 'GitHub', href: 'https://github.com/ChrisonSimtian/Fallout'},
-            {label: 'Issues', href: 'https://github.com/ChrisonSimtian/Fallout/issues'},
-            {label: 'Releases', href: 'https://github.com/ChrisonSimtian/Fallout/releases'},
+            {label: 'GitHub', href: 'https://github.com/Fallout-build/Fallout'},
+            {label: 'Issues', href: 'https://github.com/Fallout-build/Fallout/issues'},
+            {label: 'Releases', href: 'https://github.com/Fallout-build/Fallout/releases'},
           ],
         },
         {
